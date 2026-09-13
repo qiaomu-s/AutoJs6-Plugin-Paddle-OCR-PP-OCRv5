@@ -21,7 +21,7 @@ internal class PpOcrV5RuntimeConfig private constructor(
                 pluginId = appContext.stringResource("plugin_id", "paddle-ocr-pp-ocrv5"),
                 pluginEngine = appContext.stringResource("plugin_engine", "paddle-ocr"),
                 pluginVariant = appContext.stringResource("plugin_variant", "v5"),
-                pluginAuthor = appContext.stringResource("plugin_author", "SuperMonster003"),
+                pluginAuthor = appContext.stringResource("plugin_author", "Anonymous"),
                 modelProfile = appContext.stringResource("model_profile", "Mobile"),
                 versionName = packageInfo.versionName ?: "",
                 versionCode = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {

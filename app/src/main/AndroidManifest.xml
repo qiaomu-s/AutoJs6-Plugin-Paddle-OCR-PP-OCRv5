@@ -12,7 +12,7 @@
 
         <meta-data
             android:name="com.monkeyking.plugin.info.AUTHOR"
-            android:value="SuperMonster003" />
+            android:value="Anonymous" />
 
         <activity
             android:name="monkeyking6.plugin.paddleocr.v5.WakeActivity"

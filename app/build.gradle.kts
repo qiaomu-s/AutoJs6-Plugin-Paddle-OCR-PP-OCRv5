@@ -35,7 +35,7 @@ android {
         buildConfigField("String", "VERSION_DATE", "\"${utils.getDateString("MMM d, yyyy", "GMT+08:00")}\"")
         buildConfigField("String", "PLUGIN_ENGINE", "\"paddle-ocr\"")
         buildConfigField("String", "PLUGIN_VARIANT", "\"v5\"")
-        resValue("string", "plugin_author", "SuperMonster003")
+        resValue("string", "plugin_author", "Anonymous")
         resValue("string", "plugin_engine", "paddle-ocr")
         resValue("string", "plugin_variant", "v5")
         resValue("string", "plugin_version_date", utils.getDateString("MMM d, yyyy", "GMT+08:00"))

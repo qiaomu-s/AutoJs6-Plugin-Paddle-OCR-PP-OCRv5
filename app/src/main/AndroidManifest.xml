@@ -10,15 +10,11 @@
         android:supportsRtl="true">
 
         <meta-data
-            android:name="com.monkeyking.plugin.WAKE_ACTIVITY"
-            android:value=".WakeActivity" />
-
-        <meta-data
             android:name="com.monkeyking.plugin.info.AUTHOR"
             android:value="SuperMonster003" />
 
         <activity
-            android:name=".WakeActivity"
+            android:name="monkeyking6.plugin.paddleocr.v5.WakeActivity"
             android:exported="true"
             android:excludeFromRecents="true"
             android:finishOnTaskLaunch="true"
@@ -31,7 +27,7 @@
         </activity>
 
         <service
-            android:name=".PpOcrV5PluginService"
+            android:name="monkeyking6.plugin.paddleocr.v5.PpOcrV5PluginService"
             android:exported="true"
             android:permission="com.monkeyking.permission.PLUGIN">
             <intent-filter>

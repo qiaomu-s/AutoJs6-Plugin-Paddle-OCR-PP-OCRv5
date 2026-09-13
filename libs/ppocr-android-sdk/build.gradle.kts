@@ -2,6 +2,7 @@ plugins {
     id("org.monkeyking.build.versions")
     id("org.monkeyking.build.jvm-convention")
     id("com.android.library")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {

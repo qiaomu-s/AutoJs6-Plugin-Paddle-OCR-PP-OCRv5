@@ -2,10 +2,11 @@ plugins {
     id("org.monkeyking.build.versions")
     id("org.monkeyking.build.jvm-convention")
     id("com.android.library")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
-    namespace = "io.github.supermonster003.monkeyking6.plugin.paddleocr.v5.runtime"
+    namespace = "monkeyking6.plugin.paddleocr.v5.runtime"
     compileSdk = versions.sdkVersionCompile
 
     defaultConfig {

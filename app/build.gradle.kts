@@ -8,9 +8,10 @@ plugins {
     id("org.monkeyking.build.signs")
     id("org.monkeyking.build.jvm-convention")
     id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
-val globalApplicationId = "io.github.supermonster003.monkeyking6.plugin.paddleocr.v5"
+val globalApplicationId = "monkeyking6.plugin.paddleocr.v5"
 
 val buildTypeDebug = "debug"
 val buildTypeRelease = "release"

@@ -1,4 +1,4 @@
-package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
+package monkeyking6.plugin.paddleocr.v5
 
 import android.app.Service
 import android.content.Intent

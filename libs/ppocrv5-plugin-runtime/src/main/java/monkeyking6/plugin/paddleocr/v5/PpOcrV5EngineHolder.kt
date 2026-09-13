@@ -1,4 +1,4 @@
-package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
+package monkeyking6.plugin.paddleocr.v5
 
 import android.content.Context
 import android.os.Bundle
@@ -8,7 +8,7 @@ import com.paddle.ocr.PaddleOCRConfig
 import com.paddle.ocr.util.OpenCVUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
-import org.autojs.plugin.paddle.ocr.api.OcrOptions
+import com.monkeyking.plugin.paddle.ocr.api.OcrOptions
 
 class PpOcrV5EngineHolder(context: Context) {
 

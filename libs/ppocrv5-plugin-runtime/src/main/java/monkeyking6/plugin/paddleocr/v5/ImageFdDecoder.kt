@@ -1,4 +1,4 @@
-package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
+package monkeyking6.plugin.paddleocr.v5
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -6,7 +6,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.ParcelFileDescriptor
 import android.os.SharedMemory
-import org.autojs.plugin.paddle.ocr.api.PaddleOcrOptionExtraKeys
+import com.monkeyking.plugin.paddle.ocr.api.PaddleOcrOptionExtraKeys
 import java.io.IOException
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

@@ -502,7 +502,7 @@ pluginManagement {
             val kotlin = object : Version(
                 gradleKotlinCompatProps.filter { (gradleMin, _) ->
                     gradle.gradleVersion.toGradleVersion() >= gradleMin.toGradleVersion()
-                }.toSortedMap(utils::compareVersionStrings).reversed(),
+                }.toSortedMap(utils::compareVersionStrings),
                 platform.version,
             ) {
                 override fun refinedBestMatchingValue(bestMatchingValue: String?): String? {

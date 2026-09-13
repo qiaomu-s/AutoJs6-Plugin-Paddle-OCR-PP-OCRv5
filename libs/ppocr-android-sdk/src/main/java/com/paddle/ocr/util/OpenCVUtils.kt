@@ -56,6 +56,12 @@ object OpenCVUtils {
         }
     }
 
+    /**
+     * Loads the packaged native library by its absolute path when the system loader cannot
+     * resolve it by name. The path comes from the app's private nativeLibraryDir, so this
+     * fallback is intentional and remains scoped to the verified directory.
+     */
+    @Suppress("UnsafeDynamicallyLoadedCode")
     private fun tryLoadFromNativeLibraryDir(context: Context, failures: MutableList<String>): Boolean {
         val nativeLibraryDir = context.applicationInfo.nativeLibraryDir
         if (nativeLibraryDir.isNullOrBlank()) {
@@ -80,6 +86,11 @@ object OpenCVUtils {
         }
     }
 
+    /**
+     * Loads an optional native dependency from the already validated application library
+     * directory used by [tryLoadFromNativeLibraryDir].
+     */
+    @Suppress("UnsafeDynamicallyLoadedCode")
     private fun loadFileIfExists(file: File) {
         if (file.isFile) {
             System.load(file.absolutePath)

@@ -34,6 +34,11 @@ internal class PpOcrV5RuntimeConfig private constructor(
             )
         }
 
+        /**
+         * Flavor metadata is emitted with dynamic resValue names, so compile-time R references
+         * are not available for this small, centralized lookup.
+         */
+        @Suppress("DiscouragedApi")
         private fun Context.stringResource(name: String, fallback: String): String {
             val id = resources.getIdentifier(name, "string", packageName)
             return if (id != 0) resources.getString(id) else fallback

@@ -193,10 +193,6 @@ android {
         }
     }
 
-    lint {
-        abortOnError = false
-    }
-
     signingConfigs {
         if (signs.isValid) {
             create(buildTypeRelease) {

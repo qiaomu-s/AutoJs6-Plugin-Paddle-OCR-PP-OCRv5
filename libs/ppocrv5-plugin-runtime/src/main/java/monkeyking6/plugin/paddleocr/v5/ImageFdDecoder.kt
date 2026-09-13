@@ -1,5 +1,6 @@
 package monkeyking6.plugin.paddleocr.v5
 
+import android.annotation.TargetApi
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Build
@@ -85,6 +86,13 @@ object ImageFdDecoder {
         return bitmap
     }
 
+    /**
+     * Uses the SharedMemory fast path available on API 33 and newer.
+     *
+     * The caller guards this method with the same API check and keeps the stream decoder
+     * as the fallback for older Android releases.
+     */
+    @TargetApi(Build.VERSION_CODES.TIRAMISU)
     private fun tryDecodeSharedMemory(
         descriptor: ParcelFileDescriptor,
         width: Int,

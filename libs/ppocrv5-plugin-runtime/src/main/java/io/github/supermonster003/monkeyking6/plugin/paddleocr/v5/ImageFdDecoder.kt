@@ -1,4 +1,4 @@
-package io.github.supermonster003.autojs6.plugin.paddleocr.v5
+package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

@@ -3,14 +3,14 @@ import org.gradle.api.file.DuplicatesStrategy
 import org.gradle.api.provider.Property
 
 plugins {
-    id("org.autojs.build.utils")
-    id("org.autojs.build.versions")
-    id("org.autojs.build.signs")
-    id("org.autojs.build.jvm-convention")
+    id("org.monkeyking.build.utils")
+    id("org.monkeyking.build.versions")
+    id("org.monkeyking.build.signs")
+    id("org.monkeyking.build.jvm-convention")
     id("com.android.application")
 }
 
-val globalApplicationId = "io.github.supermonster003.autojs6.plugin.paddleocr.v5"
+val globalApplicationId = "io.github.supermonster003.monkeyking6.plugin.paddleocr.v5"
 
 val buildTypeDebug = "debug"
 val buildTypeRelease = "release"
@@ -227,6 +227,12 @@ android {
         }
     }
 
+    lint {
+        targetSdk = versions.sdkVersionTarget
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
+
     buildFeatures {
         aidl = true
         buildConfig = true
@@ -324,12 +330,11 @@ androidComponents {
 
 dependencies {
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.2.21")
-    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
+    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.21")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("org.jetbrains:annotations:26.0.2")
 
-    implementation(files("$rootDir/libs/common-plugin-api.aar"))
     implementation(files("$rootDir/libs/paddle-ocr-api.aar"))
 
     implementation(project(":libs:ppocrv5-plugin-runtime"))

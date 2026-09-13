@@ -1,11 +1,11 @@
 plugins {
-    id("org.autojs.build.versions")
-    id("org.autojs.build.jvm-convention")
+    id("org.monkeyking.build.versions")
+    id("org.monkeyking.build.jvm-convention")
     id("com.android.library")
 }
 
 android {
-    namespace = "io.github.supermonster003.autojs6.plugin.paddleocr.v5.runtime"
+    namespace = "io.github.supermonster003.monkeyking6.plugin.paddleocr.v5.runtime"
     compileSdk = versions.sdkVersionCompile
 
     defaultConfig {
@@ -16,6 +16,7 @@ android {
     lint {
         targetSdk = versions.sdkVersionTarget
         abortOnError = false
+        checkReleaseBuilds = false
     }
 
     buildFeatures {
@@ -28,10 +29,9 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.2.21")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 
-    compileOnly(files("$rootDir/libs/common-plugin-api.aar"))
     compileOnly(files("$rootDir/libs/paddle-ocr-api.aar"))
     implementation(project(":libs:ppocr-android-sdk"))
 }

@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -10,9 +10,9 @@ import org.gradle.api.Project
  *
  * zh-CN: Gradle 签名功能插件.
  *
- * - `id`: "org.autojs.build.signs"
- * - `implementationClass`: "org.autojs.build.SignsPlugin"
- * - `displayName`: "AutoJs6 Signs Plugin"
+ * - `id`: "org.monkeyking.build.signs"
+ * - `implementationClass`: "org.monkeyking.build.SignsPlugin"
+ * - `displayName`: "MonkeyKing6 Signs Plugin"
  * - `description`: "Provides signing helpers."
  *
  * Apply this plugin to your Android module's `build.gradle.kts`:
@@ -21,7 +21,7 @@ import org.gradle.api.Project
  *
  * ```kts
  * plugins {
- *     id("org.autojs.build.signs")
+ *     id("org.monkeyking.build.signs")
  * }
  *
  * android {

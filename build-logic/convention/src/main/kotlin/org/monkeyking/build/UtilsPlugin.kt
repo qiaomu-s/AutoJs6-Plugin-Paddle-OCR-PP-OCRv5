@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -10,9 +10,9 @@ import org.gradle.api.Project
  *
  * zh-CN: Gradle 基础工具插件.
  *
- * - `id`: "org.autojs.build.utils"
- * - `implementationClass`: "org.autojs.build.UtilsPlugin"
- * - `displayName`: "AutoJs6 Build Utils Plugin"
+ * - `id`: "org.monkeyking.build.utils"
+ * - `implementationClass`: "org.monkeyking.build.UtilsPlugin"
+ * - `displayName`: "MonkeyKing6 Build Utils Plugin"
  * - `description`: "Provides utilities for downloading, extracting archives, and version helpers."
  *
  * Apply this plugin to your Android module's `build.gradle.kts`:
@@ -21,7 +21,7 @@ import org.gradle.api.Project
  *
  * ```kts
  * plugins {
- *     id("org.autojs.build.utils")
+ *     id("org.monkeyking.build.utils")
  * }
  *
  * utils.digestCRC32(file("some/file.zip"))

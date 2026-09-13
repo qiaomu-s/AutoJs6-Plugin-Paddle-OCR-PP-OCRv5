@@ -1,6 +1,6 @@
 plugins {
-    id("org.autojs.build.versions")
-    id("org.autojs.build.jvm-convention")
+    id("org.monkeyking.build.versions")
+    id("org.monkeyking.build.jvm-convention")
     id("com.android.library")
 }
 
@@ -16,6 +16,7 @@ android {
     lint {
         targetSdk = versions.sdkVersionTarget
         abortOnError = false
+        checkReleaseBuilds = false
     }
 
     buildFeatures {

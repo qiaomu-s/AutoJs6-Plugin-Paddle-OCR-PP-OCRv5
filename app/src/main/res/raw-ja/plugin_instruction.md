@@ -32,5 +32,5 @@ ocr.paddle.recognizeText("test.png");
 ocr.paddle("test.png");
 ```
 
-その他の使用方法については AutoJs6 アプリドキュメントの [光学文字認識 (OCR)](https://docs.autojs6.com/#/ocr)
+その他の使用方法については MonkeyKing6 アプリドキュメントの [光学文字認識 (OCR)](https://docs.monkeyking6.com/#/ocr)
 セクションを参照してください.

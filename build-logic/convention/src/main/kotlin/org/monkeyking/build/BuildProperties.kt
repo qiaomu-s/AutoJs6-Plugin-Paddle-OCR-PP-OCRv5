@@ -1,4 +1,4 @@
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Project
 import java.io.File

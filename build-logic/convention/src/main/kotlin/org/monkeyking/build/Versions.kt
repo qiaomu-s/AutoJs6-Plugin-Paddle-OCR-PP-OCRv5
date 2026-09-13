@@ -1,6 +1,6 @@
-package org.autojs.build
+package org.monkeyking.build
 
-import org.autojs.build.Utils.getOrNull
+import org.monkeyking.build.Utils.getOrNull
 import org.gradle.api.Action
 import org.gradle.api.JavaVersion
 import org.gradle.api.Project

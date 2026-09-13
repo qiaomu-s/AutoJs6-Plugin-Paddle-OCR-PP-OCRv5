@@ -1,4 +1,4 @@
-package io.github.supermonster003.autojs6.plugin.paddleocr.v5
+package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
 
 enum class PpOcrV5Profile(
     val value: String,

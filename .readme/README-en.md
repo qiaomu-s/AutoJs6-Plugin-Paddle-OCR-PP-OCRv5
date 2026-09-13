@@ -2,19 +2,19 @@
 
 <div align="center">
   <p>
-    <img src="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/app/src/main/res/mipmap/ic_launcher.png?raw=true" alt="autojs6-plugin-paddle-ocr-pp-ocrv5-ic-launcher" border="0" width="128" />
+    <img src="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/app/src/main/res/mipmap/ic_launcher.png?raw=true" alt="monkeyking6-plugin-paddle-ocr-pp-ocrv5-ic-launcher" border="0" width="128" />
   </p>
 
   <p>Paddle OCR text recognition plugin based on PP-OCRv5</p>
 
   <p>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?label=Release"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?color=A24232&label=Issues"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/commit/96c9b45bc90d5ac5516e6bb1f10848c628418dac"><img alt="Created" src="https://img.shields.io/date/1773539058?color=2e7d32&label=Created"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?label=Release"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?color=A24232&label=Issues"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/commit/96c9b45bc90d5ac5516e6bb1f10848c628418dac"><img alt="Created" src="https://img.shields.io/date/1773539058?color=2e7d32&label=Created"/></a>
     <br>
     <a href="https://developer.android.com/studio/archive"><img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-2023.3+-B64FC8"/></a>
     <a href="https://www.jetbrains.com/idea/download/other.html"><img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-2023.3+-EE4677"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?color=534BAE&label=License"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?color=534BAE&label=License"/></a>
   </p>
 </div>
 
@@ -26,16 +26,16 @@
 
 The current README.md supports the following languages:
 
-- [简体中文 [zh-Hans]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hans.md)
-- [繁體中文 (香港) [zh-Hant-HK]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-HK.md)
-- [繁體中文 (台灣) [zh-Hant-TW]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-TW.md)
+- [简体中文 [zh-Hans]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hans.md)
+- [繁體中文 (香港) [zh-Hant-HK]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-HK.md)
+- [繁體中文 (台灣) [zh-Hant-TW]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-TW.md)
 - English [en] # current
-- [Français [fr]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-fr.md)
-- [Español [es]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-es.md)
-- [日本語 [ja]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ja.md)
-- [한국어 [ko]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ko.md)
-- [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ru.md)
-- [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ar.md)
+- [Français [fr]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-fr.md)
+- [Español [es]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-es.md)
+- [日本語 [ja]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ja.md)
+- [한국어 [ko]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ko.md)
+- [Русский [ru]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ru.md)
+- [العربية [ar]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ar.md)
 
 ******
 
@@ -43,7 +43,7 @@ The current README.md supports the following languages:
 
 ******
 
-The AutoJs6 Paddle OCR PP-OCRv5 Plugin provides PaddleOCR ONNX Runtime based text detection and text recognition for AutoJs6. It supports the mobile default model, the high-accuracy server model, and multilingual recognition models.
+The MonkeyKing6 Paddle OCR PP-OCRv5 Plugin provides PaddleOCR ONNX Runtime based text detection and text recognition for MonkeyKing6. It supports the mobile default model, the high-accuracy server model, and multilingual recognition models.
 
 ******
 
@@ -52,7 +52,7 @@ The AutoJs6 Paddle OCR PP-OCRv5 Plugin provides PaddleOCR ONNX Runtime based tex
 ******
 
 - Provides the `paddle-ocr` plugin service with default plugin ID `paddle-ocr-pp-ocrv5`.
-- Supports AutoJs6 calls such as `ocr.paddle.recognizeText(...)` and `ocr.paddle(...)`.
+- Supports MonkeyKing6 calls such as `ocr.paddle.recognizeText(...)` and `ocr.paddle(...)`.
 - Supports screenshot, local image path, and raw image data input, returning recognized text, confidence, rectangular bounds, and quadrilateral coordinates.
 - Provides `mobile`, `server`, `english`, `korean`, `latin`, `eslav`, `thai`, `greek`, `arabic`, `cyrillic`, `devanagari`, `telugu`, and `tamil` product variants.
 - Plugin metadata, usage instructions, README, and CHANGELOG are localized for Spanish, French, Russian, Arabic, Japanese, Korean, English, Simplified Chinese, Hong Kong Traditional Chinese, and Taiwan Traditional Chinese.
@@ -93,7 +93,7 @@ ocr.paddle.recognizeText(img);
 ocr.paddle("test.png");
 ```
 
-For more usage examples, refer to the [Optical Character Recognition (OCR)](https://docs.autojs6.com/#/ocr) section in the AutoJs6 documentation.
+For more usage examples, refer to the [Optical Character Recognition (OCR)](https://docs.monkeyking6.com/#/ocr) section in the MonkeyKing6 documentation.
 
 ******
 
@@ -120,7 +120,7 @@ python scripts\prepare_ppocrv5_assets.py --profile all
 ###### 2026/07/17
 
 * `Feature` Added the Paddle OCR PP-OCRv5 plugin service with default plugin ID `paddle-ocr-pp-ocrv5` and engine `paddle-ocr`
-* `Feature` Added AutoJs6 OCR calls through `ocr.paddle.recognizeText(...)` and `ocr.paddle(...)`
+* `Feature` Added MonkeyKing6 OCR calls through `ocr.paddle.recognizeText(...)` and `ocr.paddle(...)`
 * `Feature` Implemented PP-OCRv5 text detection, text recognition, CTC decoding, and quadrilateral result coordinates with ONNX Runtime Android and OpenCV
 * `Feature` Added screenshot, local image path, and raw image data input, returning text, confidence, rectangular bounds, and timing metadata
 * `Feature` Added product variants for `mobile`, `server`, `english`, `korean`, `latin`, `eslav`, `thai`, `greek`, `arabic`, `cyrillic`, `devanagari`, `telugu`, and `tamil`
@@ -129,7 +129,7 @@ python scripts\prepare_ppocrv5_assets.py --profile all
 
 ##### For more release history
 
-* [CHANGELOG.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.changelog/CHANGELOG-en.md)
+* [CHANGELOG.md](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.changelog/CHANGELOG-en.md)
 
 ******
 
@@ -179,7 +179,7 @@ app/src/main/res/raw-*/plugin_instruction.md
 
 ******
 
-- AutoJs6 OCR documentation: https://docs.autojs6.com/#/ocr
+- MonkeyKing6 OCR documentation: https://docs.monkeyking6.com/#/ocr
 - PaddleOCR official project: https://github.com/PaddlePaddle/PaddleOCR
 - PP-OCRv5 ONNX model source: https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0
 - ONNX Runtime Android documentation: https://onnxruntime.ai/docs/tutorials/mobile/deploy-android.html

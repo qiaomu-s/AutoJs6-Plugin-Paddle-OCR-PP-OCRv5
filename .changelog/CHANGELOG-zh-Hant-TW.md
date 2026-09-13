@@ -9,7 +9,7 @@
 ###### 2026/07/17
 
 * `新增` Paddle OCR PP-OCRv5 外掛服務, 預設外掛 ID 為 `paddle-ocr-pp-ocrv5`, 引擎為 `paddle-ocr`
-* `新增` 支援透過 AutoJs6 的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 呼叫 OCR 能力
+* `新增` 支援透過 MonkeyKing6 的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 呼叫 OCR 能力
 * `新增` 以 ONNX Runtime Android 和 OpenCV 實作 PP-OCRv5 文字偵測/文字辨識/CTC 解碼和四點座標結果
 * `新增` 支援螢幕截圖/本地影像路徑和原始影像資料輸入, 並回傳文字/信賴度/矩形邊界和耗時資訊
 * `新增` 提供 `mobile`/`server`/`english`/`korean`/`latin`/`eslav`/`thai`/`greek`/`arabic`/`cyrillic`/`devanagari`/`telugu`/`tamil` 產品變體

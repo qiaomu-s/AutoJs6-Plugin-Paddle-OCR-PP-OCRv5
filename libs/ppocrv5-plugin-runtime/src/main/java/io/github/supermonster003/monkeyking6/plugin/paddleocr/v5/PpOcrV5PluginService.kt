@@ -1,4 +1,4 @@
-package io.github.supermonster003.autojs6.plugin.paddleocr.v5
+package io.github.supermonster003.monkeyking6.plugin.paddleocr.v5
 
 import android.app.Service
 import android.content.Intent
@@ -9,12 +9,10 @@ import android.os.ParcelFileDescriptor
 import com.paddle.ocr.model.OCRRunResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
-import org.autojs.plugin.common.api.PluginCapabilityKeys
-import org.autojs.plugin.common.api.PluginInfo
-import org.autojs.plugin.paddle.ocr.api.IOcrPlugin
-import org.autojs.plugin.paddle.ocr.api.OcrOptions
-import org.autojs.plugin.paddle.ocr.api.OcrResult
-import org.autojs.plugin.paddle.ocr.api.PaddleOcrPluginCapabilityKeys
+import com.monkeyking.plugin.paddle.ocr.api.IOcrPlugin
+import com.monkeyking.plugin.paddle.ocr.api.OcrOptions
+import com.monkeyking.plugin.paddle.ocr.api.OcrResult
+import com.monkeyking.plugin.paddle.ocr.api.PluginInfo
 import com.paddle.ocr.model.OCRResult as PaddleResult
 
 class PpOcrV5PluginService : Service() {
@@ -62,10 +60,9 @@ class PpOcrV5PluginService : Service() {
                 versionName = runtimeConfig.versionName
                 versionCode = runtimeConfig.versionCode
                 versionDate = runtimeConfig.versionDate
-                supportedAbis = SUPPORTED_ABIS
                 capabilities = Bundle().apply {
-                    putInt(PluginCapabilityKeys.REQUIRES_HOST_VERSION, 3835)
-                    putBoolean(PaddleOcrPluginCapabilityKeys.SUPPORTS_RAW_IMAGE, true)
+                    putInt("requiresHostVersion", 3835)
+                    putBoolean("supportsRawImage", true)
                     putBoolean(CAPABILITY_SUPPORTS_PP_OCR_V5, true)
                     putBoolean(CAPABILITY_SUPPORTS_TEXT_DETECTION, true)
                     putBoolean(CAPABILITY_SUPPORTS_TEXT_RECOGNITION, true)
@@ -97,7 +94,7 @@ class PpOcrV5PluginService : Service() {
                         engine.recognize(bitmap)
                     }
                     return runResult.results
-                        .map { it.toAutoJsResult(runResult) }
+                        .map { it.toMonkeyKingResult(runResult) }
                         .toMutableList()
                 } finally {
                     if (!bitmap.isRecycled) {
@@ -108,12 +105,12 @@ class PpOcrV5PluginService : Service() {
         }
     }
 
-    private fun PaddleResult.toAutoJsResult(runResult: OCRRunResult): OcrResult {
+    private fun PaddleResult.toMonkeyKingResult(runResult: OCRRunResult): OcrResult {
         val xs = box.points.map { it.x }
         val ys = box.points.map { it.y }
         return OcrResult().apply {
-            text = this@toAutoJsResult.text
-            confidence = this@toAutoJsResult.confidence
+            text = this@toMonkeyKingResult.text
+            confidence = this@toMonkeyKingResult.confidence
             bounds = Rect(
                 xs.minOrNull()?.toInt() ?: 0,
                 ys.minOrNull()?.toInt() ?: 0,
@@ -123,7 +120,7 @@ class PpOcrV5PluginService : Service() {
             extras = Bundle().apply {
                 putFloatArray(
                     "quad",
-                    this@toAutoJsResult.box.points.flatMap { point ->
+                    this@toMonkeyKingResult.box.points.flatMap { point ->
                         listOf(point.x, point.y)
                     }.toFloatArray(),
                 )

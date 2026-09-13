@@ -1,4 +1,4 @@
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Action
 import org.gradle.api.JavaVersion

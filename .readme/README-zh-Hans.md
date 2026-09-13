@@ -2,19 +2,19 @@
 
 <div align="center">
   <p>
-    <img src="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/app/src/main/res/mipmap/ic_launcher.png?raw=true" alt="autojs6-plugin-paddle-ocr-pp-ocrv5-ic-launcher" border="0" width="128" />
+    <img src="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/app/src/main/res/mipmap/ic_launcher.png?raw=true" alt="monkeyking6-plugin-paddle-ocr-pp-ocrv5-ic-launcher" border="0" width="128" />
   </p>
 
   <p>基于 PP-OCRv5 的 Paddle OCR 文本识别插件</p>
 
   <p>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?label=Release"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?color=A24232&label=Issues"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/commit/96c9b45bc90d5ac5516e6bb1f10848c628418dac"><img alt="Created" src="https://img.shields.io/date/1773539058?color=2e7d32&label=Created"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?label=Release"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?color=A24232&label=Issues"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/commit/96c9b45bc90d5ac5516e6bb1f10848c628418dac"><img alt="Created" src="https://img.shields.io/date/1773539058?color=2e7d32&label=Created"/></a>
     <br>
     <a href="https://developer.android.com/studio/archive"><img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-2023.3+-B64FC8"/></a>
     <a href="https://www.jetbrains.com/idea/download/other.html"><img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-2023.3+-EE4677"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5?color=534BAE&label=License"/></a>
+    <a href="https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5?color=534BAE&label=License"/></a>
   </p>
 </div>
 
@@ -27,15 +27,15 @@
 当前 README.md 支持以下语言:
 
 - 简体中文 [zh-Hans] # 当前
-- [繁體中文 (香港) [zh-Hant-HK]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-HK.md)
-- [繁體中文 (台灣) [zh-Hant-TW]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-TW.md)
-- [English [en]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-en.md)
-- [Français [fr]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-fr.md)
-- [Español [es]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-es.md)
-- [日本語 [ja]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ja.md)
-- [한국어 [ko]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ko.md)
-- [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ru.md)
-- [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ar.md)
+- [繁體中文 (香港) [zh-Hant-HK]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-HK.md)
+- [繁體中文 (台灣) [zh-Hant-TW]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-zh-Hant-TW.md)
+- [English [en]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-en.md)
+- [Français [fr]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-fr.md)
+- [Español [es]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-es.md)
+- [日本語 [ja]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ja.md)
+- [한국어 [ko]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ko.md)
+- [Русский [ru]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ru.md)
+- [العربية [ar]](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.readme/README-ar.md)
 
 ******
 
@@ -43,7 +43,7 @@
 
 ******
 
-AutoJs6 Paddle OCR PP-OCRv5 插件为 AutoJs6 提供基于 PaddleOCR ONNX Runtime 的文字检测和文本识别能力, 支持移动端默认模型/高精度服务端模型和多语种识别模型.
+MonkeyKing6 Paddle OCR PP-OCRv5 插件为 MonkeyKing6 提供基于 PaddleOCR ONNX Runtime 的文字检测和文本识别能力, 支持移动端默认模型/高精度服务端模型和多语种识别模型.
 
 ******
 
@@ -52,7 +52,7 @@ AutoJs6 Paddle OCR PP-OCRv5 插件为 AutoJs6 提供基于 PaddleOCR ONNX Runtim
 ******
 
 - 提供 `paddle-ocr` 插件服务, 默认插件 ID 为 `paddle-ocr-pp-ocrv5`.
-- 支持 AutoJs6 中的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 调用.
+- 支持 MonkeyKing6 中的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 调用.
 - 支持截图/本地图像路径和原始图像数据输入, 返回识别文本/置信度/矩形边界和四点坐标.
 - 提供 `mobile`/`server`/`english`/`korean`/`latin`/`eslav`/`thai`/`greek`/`arabic`/`cyrillic`/`devanagari`/`telugu`/`tamil` 产品变体.
 - 插件信息/使用说明/README 与 CHANGELOG 均支持西班牙语/法语/俄语/阿拉伯语/日语/韩语/英语/简体中文/香港繁体/台湾繁体.
@@ -93,7 +93,7 @@ ocr.paddle.recognizeText(img);
 ocr.paddle("test.png");
 ```
 
-更多使用方式, 可参阅 AutoJs6 应用文档的 [光学字符识别 (OCR)](https://docs.autojs6.com/#/ocr) 章节.
+更多使用方式, 可参阅 MonkeyKing6 应用文档的 [光学字符识别 (OCR)](https://docs.monkeyking6.com/#/ocr) 章节.
 
 ******
 
@@ -120,7 +120,7 @@ python scripts\prepare_ppocrv5_assets.py --profile all
 ###### 2026/07/17
 
 * `新增` Paddle OCR PP-OCRv5 插件服务, 默认插件 ID 为 `paddle-ocr-pp-ocrv5`, 引擎为 `paddle-ocr`
-* `新增` 支持通过 AutoJs6 的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 调用 OCR 能力
+* `新增` 支持通过 MonkeyKing6 的 `ocr.paddle.recognizeText(...)` 和 `ocr.paddle(...)` 调用 OCR 能力
 * `新增` 基于 ONNX Runtime Android 和 OpenCV 实现 PP-OCRv5 文本检测/文本识别/CTC 解码和四点坐标结果
 * `新增` 支持截图/本地图像路径和原始图像数据输入, 并返回文本/置信度/矩形边界和耗时信息
 * `新增` 提供 `mobile`/`server`/`english`/`korean`/`latin`/`eslav`/`thai`/`greek`/`arabic`/`cyrillic`/`devanagari`/`telugu`/`tamil` 产品变体
@@ -129,7 +129,7 @@ python scripts\prepare_ppocrv5_assets.py --profile all
 
 ##### 更多发行历史可参阅
 
-* [CHANGELOG.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.changelog/CHANGELOG-zh-Hans.md)
+* [CHANGELOG.md](https://github.com/SuperMonster003/MonkeyKing6-Plugin-Paddle-OCR-PP-OCRv5/blob/master/.changelog/CHANGELOG-zh-Hans.md)
 
 ******
 
@@ -179,7 +179,7 @@ app/src/main/res/raw-*/plugin_instruction.md
 
 ******
 
-- AutoJs6 OCR 文档: https://docs.autojs6.com/#/ocr
+- MonkeyKing6 OCR 文档: https://docs.monkeyking6.com/#/ocr
 - PaddleOCR 官方项目: https://github.com/PaddlePaddle/PaddleOCR
 - PP-OCRv5 ONNX 模型源: https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0
 - ONNX Runtime Android 文档: https://onnxruntime.ai/docs/tutorials/mobile/deploy-android.html

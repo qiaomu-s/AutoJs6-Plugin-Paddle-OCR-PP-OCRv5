@@ -1,4 +1,4 @@
-package org.autojs.build
+package org.monkeyking.build
 
 class Formatted(
     private val title: CharSequence,

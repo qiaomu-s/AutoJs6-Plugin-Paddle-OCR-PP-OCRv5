@@ -1,6 +1,6 @@
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "autojs6-plugin-paddle-ocr-pp-ocrv5"
+rootProject.name = "monkeyking6-plugin-paddle-ocr-pp-ocrv5"
 
 includeBuild("build-logic")
 
@@ -395,6 +395,7 @@ pluginManagement {
 
             fun ensureMinimalIdeVersion() {
                 if (minSupportedVersion == consts.DEFAULT_VERSION) return
+                if (version == "0" || version.isEmpty()) return
                 if (utils.compareVersionStrings(version, minSupportedVersion) >= 0) return
                 throw Exception("Current IDE (${this.fullName}) version $version does not meet the minimum requirement which $minSupportedVersion is needed")
             }
@@ -680,6 +681,10 @@ pluginManagement {
     }
 
     repositories {
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+        maven("https://maven.aliyun.com/repository/central")
         gradlePluginPortal()
         mavenCentral()
         google()
@@ -687,6 +692,10 @@ pluginManagement {
 
     buildscript {
         repositories {
+            maven("https://maven.aliyun.com/repository/public")
+            maven("https://maven.aliyun.com/repository/google")
+            maven("https://maven.aliyun.com/repository/gradle-plugin")
+            maven("https://maven.aliyun.com/repository/central")
             mavenCentral()
             google()
         }

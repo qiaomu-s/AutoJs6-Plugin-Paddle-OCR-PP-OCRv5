@@ -32,5 +32,5 @@ ocr.paddle.recognizeText("test.png");
 ocr.paddle("test.png");
 ```
 
-Pour plus de modes d'utilisation, consultez la section [Reconnaissance optique de caracteres (OCR)](https://docs.autojs6.com/#/ocr)
-de la documentation AutoJs6.
+Pour plus de modes d'utilisation, consultez la section [Reconnaissance optique de caracteres (OCR)](https://docs.monkeyking6.com/#/ocr)
+de la documentation MonkeyKing6.

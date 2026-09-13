@@ -32,4 +32,4 @@ ocr.paddle.recognizeText("test.png");
 ocr.paddle("test.png");
 ```
 
-更多使用方式, 可参阅 AutoJs6 应用文档的 [光学字符识别 (OCR)](https://docs.autojs6.com/#/ocr) 章节.
+更多使用方式, 可参阅 MonkeyKing6 应用文档的 [光学字符识别 (OCR)](https://docs.monkeyking6.com/#/ocr) 章节.

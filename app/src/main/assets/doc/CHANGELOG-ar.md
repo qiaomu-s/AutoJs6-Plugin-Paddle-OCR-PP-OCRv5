@@ -3,7 +3,7 @@
 ###### 2026/07/17
 
 * `ميزة` تمت إضافة خدمة ملحق Paddle OCR PP-OCRv5 مع معرف الملحق الافتراضي `paddle-ocr-pp-ocrv5` والمحرك `paddle-ocr`
-* `ميزة` تمت إضافة استدعاءات OCR في AutoJs6 عبر `ocr.paddle.recognizeText(...)` و `ocr.paddle(...)`
+* `ميزة` تمت إضافة استدعاءات OCR في MonkeyKing6 عبر `ocr.paddle.recognizeText(...)` و `ocr.paddle(...)`
 * `ميزة` تم تنفيذ كشف النص PP-OCRv5 والتعرف على النص وفك ترميز CTC وإحداثيات النتيجة الرباعية باستخدام ONNX Runtime Android و OpenCV
 * `ميزة` تمت إضافة إدخال لقطة الشاشة ومسار الصورة المحلي وبيانات الصورة الخام مع إرجاع النص والثقة والحدود المستطيلة وبيانات الوقت
 * `ميزة` تمت إضافة متغيرات المنتج `mobile` و `server` و `english` و `korean` و `latin` و `eslav` و `thai` و `greek` و `arabic` و `cyrillic` و `devanagari` و `telugu` و `tamil`

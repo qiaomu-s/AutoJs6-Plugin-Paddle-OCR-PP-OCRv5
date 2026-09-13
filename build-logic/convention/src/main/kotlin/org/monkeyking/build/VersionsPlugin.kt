@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -10,9 +10,9 @@ import org.gradle.api.Project
  *
  * zh-CN: Gradle 版本管理插件.
  *
- * - `id`: "org.autojs.build.versions"
- * - `implementationClass`: "org.autojs.build.VersionsPlugin"
- * - `displayName`: "AutoJs6 Versions Plugin"
+ * - `id`: "org.monkeyking.build.versions"
+ * - `implementationClass`: "org.monkeyking.build.VersionsPlugin"
+ * - `displayName`: "MonkeyKing6 Versions Plugin"
  * - `description`: "Provides version helpers."
  *
  * Apply this plugin to your Android module's `build.gradle.kts`:
@@ -21,7 +21,7 @@ import org.gradle.api.Project
  *
  * ```kts
  * plugins {
- *     id("org.autojs.build.versions")
+ *     id("org.monkeyking.build.versions")
  * }
  *
  * versions.appVersionName

@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

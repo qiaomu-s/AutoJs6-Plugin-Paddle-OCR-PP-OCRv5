@@ -5,11 +5,11 @@
   "h3_languages_with_ascii": "言語",
   "p_languages_all_supported_for_readme": "現在の README.md は次の言語に対応しています",
   "h3_introduction": "概要",
-  "p_introduction": "AutoJs6 Paddle OCR PP-OCRv5 プラグインは, PaddleOCR ONNX Runtime を基盤としたテキスト検出とテキスト認識を AutoJs6 に提供します. モバイル既定モデル, 高精度サーバーモデル, 多言語認識モデルに対応します.",
+  "p_introduction": "MonkeyKing6 Paddle OCR PP-OCRv5 プラグインは, PaddleOCR ONNX Runtime を基盤としたテキスト検出とテキスト認識を MonkeyKing6 に提供します. モバイル既定モデル, 高精度サーバーモデル, 多言語認識モデルに対応します.",
   "h3_functions": "機能",
   "features": [
     "`paddle-ocr` プラグインサービスを提供し, 既定のプラグイン ID は `paddle-ocr-pp-ocrv5` です.",
-    "AutoJs6 の `ocr.paddle.recognizeText(...)` と `ocr.paddle(...)` 呼び出しに対応します.",
+    "MonkeyKing6 の `ocr.paddle.recognizeText(...)` と `ocr.paddle(...)` 呼び出しに対応します.",
     "スクリーンショット, ローカル画像パス, raw 画像データ入力に対応し, 認識テキスト, 信頼度, 矩形境界, 四点座標を返します.",
     "`mobile`/`server`/`english`/`korean`/`latin`/`eslav`/`thai`/`greek`/`arabic`/`cyrillic`/`devanagari`/`telugu`/`tamil` の製品バリアントを提供します.",
     "プラグインメタデータ, 使用説明, README, CHANGELOG はスペイン語/フランス語/ロシア語/アラビア語/日本語/韓国語/英語/簡体字中国語/香港繁体字/台湾繁体字にローカライズされています."
@@ -24,7 +24,7 @@
   "h3_usage": "使用例",
   "p_usage_screenshot": "スクリーンショット内のテキスト内容を認識します",
   "p_usage_file": "ローカル画像ファイル内のテキスト内容を認識します",
-  "p_usage_docs": "その他の使用例は AutoJs6 ドキュメントの [Optical Character Recognition (OCR)]({{ docs_ocr_url }}) セクションを参照してください",
+  "p_usage_docs": "その他の使用例は MonkeyKing6 ドキュメントの [Optical Character Recognition (OCR)]({{ docs_ocr_url }}) セクションを参照してください",
   "h3_prepare_models": "モデル準備",
   "prepare_notes": [
     "スクリプトは Paddle モデルソースから公式 ONNX tar パッケージをダウンロードし, `inference.onnx` と `inference.yml` を各 flavor assets にコピーします.",
@@ -40,7 +40,7 @@
   "h3_resource_layout": "リソース構成",
   "p_resource_layout": "`strings.xml` にはローカライズされたプラグイン説明が含まれます. `plugin_instruction.md` にはホスト側で表示される使用説明が含まれます. README と CHANGELOG は `.python/generate_markdown.py` により JSON ソースから生成され, リポジトリルートには `README.md` のみを保持します",
   "h3_links": "リンク",
-  "text_link_autojs6_ocr_docs": "AutoJs6 OCR ドキュメント",
+  "text_link_monkeyking6_ocr_docs": "MonkeyKing6 OCR ドキュメント",
   "text_link_paddleocr_official": "PaddleOCR 公式プロジェクト",
   "text_link_model_source": "PP-OCRv5 ONNX モデルソース",
   "text_link_onnxruntime_android": "ONNX Runtime Android ドキュメント"

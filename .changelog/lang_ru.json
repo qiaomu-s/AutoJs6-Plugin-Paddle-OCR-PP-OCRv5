@@ -9,7 +9,7 @@
       "released_date": "2026/07/17",
       "feature": [
         "Добавлен сервис плагина Paddle OCR PP-OCRv5 с ID плагина по умолчанию `paddle-ocr-pp-ocrv5` и движком `paddle-ocr`",
-        "Добавлены OCR-вызовы AutoJs6 через `ocr.paddle.recognizeText(...)` и `ocr.paddle(...)`",
+        "Добавлены OCR-вызовы MonkeyKing6 через `ocr.paddle.recognizeText(...)` и `ocr.paddle(...)`",
         "Реализованы обнаружение текста PP-OCRv5, распознавание текста, CTC-декодирование и координаты четырехугольника результата с ONNX Runtime Android и OpenCV",
         "Добавлен ввод снимка экрана, локального пути к изображению и raw-данных изображения с возвратом текста, уверенности, прямоугольных границ и метаданных времени",
         "Добавлены варианты продукта `mobile`, `server`, `english`, `korean`, `latin`, `eslav`, `thai`, `greek`, `arabic`, `cyrillic`, `devanagari`, `telugu` и `tamil`",

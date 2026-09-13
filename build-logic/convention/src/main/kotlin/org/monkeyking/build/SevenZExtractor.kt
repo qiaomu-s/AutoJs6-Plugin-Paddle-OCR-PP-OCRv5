@@ -1,4 +1,4 @@
-package org.autojs.build
+package org.monkeyking.build
 
 import org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
 import org.apache.commons.compress.archivers.sevenz.SevenZFile

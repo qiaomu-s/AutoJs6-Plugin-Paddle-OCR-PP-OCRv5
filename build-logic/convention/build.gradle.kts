@@ -20,39 +20,39 @@ dependencies {
 gradlePlugin {
     plugins {
         register("utils") {
-            id = "org.autojs.build.utils"
-            implementationClass = "org.autojs.build.UtilsPlugin"
-            displayName = "AutoJs6 Build Utils Plugin"
+            id = "org.monkeyking.build.utils"
+            implementationClass = "org.monkeyking.build.UtilsPlugin"
+            displayName = "MonkeyKing6 Build Utils Plugin"
             description = "Provides utilities for downloading, extracting archives, and version helpers."
         }
         register("versions") {
-            id = "org.autojs.build.versions"
-            implementationClass = "org.autojs.build.VersionsPlugin"
-            displayName = "AutoJs6 Versions Plugin"
+            id = "org.monkeyking.build.versions"
+            implementationClass = "org.monkeyking.build.VersionsPlugin"
+            displayName = "MonkeyKing6 Versions Plugin"
             description = "Provides version helpers."
         }
         register("signs") {
-            id = "org.autojs.build.signs"
-            implementationClass = "org.autojs.build.SignsPlugin"
-            displayName = "AutoJs6 Signs Plugin"
+            id = "org.monkeyking.build.signs"
+            implementationClass = "org.monkeyking.build.SignsPlugin"
+            displayName = "MonkeyKing6 Signs Plugin"
             description = "Provides signing helpers."
         }
         register("properties") {
-            id = "org.autojs.build.properties"
-            implementationClass = "org.autojs.build.PropertiesPlugin"
-            displayName = "AutoJs6 Properties Plugin"
+            id = "org.monkeyking.build.properties"
+            implementationClass = "org.monkeyking.build.PropertiesPlugin"
+            displayName = "MonkeyKing6 Properties Plugin"
             description = "Provides properties helpers."
         }
         register("jvmConvention") {
-            id = "org.autojs.build.jvm-convention"
-            implementationClass = "org.autojs.build.JvmConventionPlugin"
-            displayName = "AutoJs6 JVM Convention Plugin"
+            id = "org.monkeyking.build.jvm-convention"
+            implementationClass = "org.monkeyking.build.JvmConventionPlugin"
+            displayName = "MonkeyKing6 JVM Convention Plugin"
             description = "Configures Java/Kotlin targets for Android modules using central Versions."
         }
         register("localAarRegisterConvention") {
-            id = "org.autojs.build.local-arr-register-convention"
-            implementationClass = "org.autojs.build.LocalAarRegisterConventionPlugin"
-            displayName = "AutoJs6 Local AAR Register Convention Plugin"
+            id = "org.monkeyking.build.local-arr-register-convention"
+            implementationClass = "org.monkeyking.build.LocalAarRegisterConventionPlugin"
+            displayName = "MonkeyKing6 Local AAR Register Convention Plugin"
             description = "Provides local AAR register helpers."
         }
     }

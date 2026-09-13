@@ -1,1 +1,1 @@
--keep class io.github.supermonster003.autojs6.plugin.paddleocr.v5.** { *; }
+-keep class io.github.supermonster003.monkeyking6.plugin.paddleocr.v5.** { *; }

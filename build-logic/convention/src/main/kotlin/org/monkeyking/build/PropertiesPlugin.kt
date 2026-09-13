@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -10,9 +10,9 @@ import org.gradle.api.Project
  *
  * zh-CN: Gradle properties 辅助工具.
  *
- * - `id`: "org.autojs.build.properties"
- * - `implementationClass`: "org.autojs.build.PropertiesPlugin"
- * - `displayName`: "AutoJs6 Properties Plugin"
+ * - `id`: "org.monkeyking.build.properties"
+ * - `implementationClass`: "org.monkeyking.build.PropertiesPlugin"
+ * - `displayName`: "MonkeyKing6 Properties Plugin"
  * - `description`: "Provides properties helpers."
  *
  * Apply this plugin to your Android module's `build.gradle.kts`:
@@ -21,7 +21,7 @@ import org.gradle.api.Project
  *
  * ```kts
  * plugins {
- *     id("org.autojs.build.properties")
+ *     id("org.monkeyking.build.properties")
  * }
  *
  * props["MIN_SDK"]

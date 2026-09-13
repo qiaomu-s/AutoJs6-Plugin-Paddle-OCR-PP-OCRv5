@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package org.autojs.build
+package org.monkeyking.build
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -10,9 +10,9 @@ import org.gradle.api.Project
  * 
  * zh-CN: 约定插件: 为 Android 模块统一配置 Java/Kotlin 目标版本.
  * 
- * - `id`: "org.autojs.build.jvm-convention"
- * - `implementationClass`: "org.autojs.build.JvmConventionPlugin"
- * - `displayName`: "AutoJs6 JVM Convention Plugin"
+ * - `id`: "org.monkeyking.build.jvm-convention"
+ * - `implementationClass`: "org.monkeyking.build.JvmConventionPlugin"
+ * - `displayName`: "MonkeyKing6 JVM Convention Plugin"
  * - `description`: "Configures Java/Kotlin targets for Android modules using central Versions."
  * 
  * Apply this plugin to your Android module's `build.gradle.kts`:
@@ -21,7 +21,7 @@ import org.gradle.api.Project
  *
  * ```kts
  * plugins {
- *     id("org.autojs.build.jvm-convention")
+ *     id("org.monkeyking.build.jvm-convention")
  * }
  * ```
  */

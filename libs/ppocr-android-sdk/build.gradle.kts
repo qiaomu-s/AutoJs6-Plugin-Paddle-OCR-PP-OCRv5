@@ -32,6 +32,6 @@ android {
 dependencies {
     implementation("com.microsoft.onnxruntime:onnxruntime-android:1.21.1")
     implementation(project(":libs:org-opencv-4_8_0"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
     implementation(libs.core.ktx)
 }

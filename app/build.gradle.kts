@@ -259,26 +259,25 @@ android {
         }
     }
 
-    // @Hint by SuperMonster003 on Sep 25, 2024.
-    //  ! To maintain compatibility with lower versions of Gradle (such as 7.4.2).
-    //  ! zh-CN: 为了兼容低版本 Gradle (如 7.4.2).
-    //  # packaging { ... }
-    @Suppress("DEPRECATION")
-    packagingOptions {
-        jniLibs.useLegacyPackaging = true
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
 
-        listOf(
-            "META-INF/DEPENDENCIES",
-            "META-INF/LICENSE",
-            "META-INF/LICENSE.*",
-            "META-INF/LICENSE-notice.*",
-            "META-INF/license.*",
-            "META-INF/NOTICE",
-            "META-INF/NOTICE.*",
-            "META-INF/notice.*",
-            "META-INF/ASL2.0",
-            "META-INF/*.kotlin_module",
-        ).let { resources.pickFirsts.addAll(it) }
+        resources {
+            pickFirsts += listOf(
+                "META-INF/DEPENDENCIES",
+                "META-INF/LICENSE",
+                "META-INF/LICENSE.*",
+                "META-INF/LICENSE-notice.*",
+                "META-INF/license.*",
+                "META-INF/NOTICE",
+                "META-INF/NOTICE.*",
+                "META-INF/notice.*",
+                "META-INF/ASL2.0",
+                "META-INF/*.kotlin_module",
+            )
+        }
     }
 
     splits {
@@ -327,9 +326,9 @@ androidComponents {
 
 dependencies {
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.21")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
     implementation("org.jetbrains:annotations:26.0.2")
 
     implementation(files("$rootDir/libs/paddle-ocr-api.aar"))
